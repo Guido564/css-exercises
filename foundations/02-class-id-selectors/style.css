@@ -1,0 +1,19 @@
+.losprimeros{
+    background-color: lightpink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#elsegu {
+    color: blue;
+    font-size: 36px;
+}
+
+.losprimeros.eltercero {
+    font-size: 24px;
+}
+
+#elcuarto {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
