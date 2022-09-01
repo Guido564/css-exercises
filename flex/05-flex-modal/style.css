@@ -15,11 +15,29 @@ body {
   justify-content: center;
 }
 
+.cuerpo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 10px 0;
+}
+
+.header {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.icono-exclamacion{
+  margin: 20px 6px 0px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -46,11 +64,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-top: 2px;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 10px 0;
 }
 
 button.continue {
