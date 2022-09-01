@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 .para {
   font-size: 22px;
+=======
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+>>>>>>> 913a07782365d1597ffb5bf29dde4c64909ebfcf
 }
 
 .small-para {
   font-size: 14px;
+  font-weight: 800;
 }
 
 .para,
@@ -33,5 +45,19 @@ button {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+>>>>>>> 913a07782365d1597ffb5bf29dde4c64909ebfcf
